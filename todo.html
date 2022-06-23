@@ -1,20 +1,25 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>To Do List</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id="headers" class="header">
-            <h3>Indefinite</h3>
-            <input type="text"   id="input" placeholder="Task...">
-            <span onclick="newElement()" class="addBtn">Add 
-            </span>
-        </div>
 
-        <ul id="myUl">
-            <li> Gym out</li>
-            <li> Epic</li>
-        </ul>
-        <script src="code.js"></script>
-    </body>
+<head>
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <p>Adam's Epic To Do List</p>
+    </div>
+    <div class="app">
+        <p style="font-size:18px; font-style:bold;">To Do By Today</p>
+        <input type="text" id="box" value="Type here to add task" />
+        <br />
+        <input id="addbt" type="button" value="Add item" onclick="addItem();" />
+        <br />
+        <div id="list"></div>
+    </div>
+</body>
+
 </html>
+
