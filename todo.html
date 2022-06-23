@@ -11,13 +11,23 @@
     <div class="header">
         <p>Adam's Epic To Do List</p>
     </div>
-    <div class="app">
-        <p style="font-size:18px; font-style:bold;">To Do By Today</p>
-        <input type="text" id="box" value="Type here to add task" />
-        <br />
-        <input id="addbt" type="button" value="Add item" onclick="addItem();" />
-        <br />
-        <div id="list"></div>
+    <div class="flex-container">
+        <div class="app" id="today">
+            <p style="font-size:18px; font-style:bold;">To Do by Today</p>
+            <input type="text" id="box" value="Type here to add task" />
+            <br />
+            <input id="addbt" type="button" value="Add item" onclick="addItem();" />
+            <br />
+            <div id="list"></div>
+        </div>
+        <div class="app" id="week">
+            <p style="font-size:18px; font-style:bold;">To Do by End of the Week</p>
+            <input type="text" id="box" value="Type here to add task" />
+            <br />
+            <input id="addbt" type="button" value="Add item" onclick="addItem();" />
+            <br />
+            <div id="list"></div>
+        </div>
     </div>
 </body>
 
