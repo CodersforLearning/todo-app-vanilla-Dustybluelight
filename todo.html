@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <p>Adam's Epic To Do List</p>
+    </div>
+    <div class="flex-container">
+        <div class="app" id="today">
+            <p style="font-size:30px; font-style:bold;">To Do by Today</p>
+            <input style="font-size:22px;" type="text" id="tbox" value="Type here to add task" />
+            <br />
+            <input id="addbt" type="button" value="Add item" onclick="taddItem();" />
+            <br />
+            <div id="tlist"></div>
+        </div>
+        <div class="app" id="week">
+            <p style="font-size:30px; font-style:bold;">To Do by End of the Week</p>
+            <input style="font-size:22px;" type="text" id="wbox" value="Type here to add task" />
+            <br />
+            <input id="addbt" type="button" value="Add item" onclick="addItem();" />
+            <br />
+            <div id="wlist"></div>
+        </div>
+    </div>
+    <p id="date"></p>
+</body>
+
+</html>
+

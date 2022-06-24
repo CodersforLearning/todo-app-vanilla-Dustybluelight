@@ -1,0 +1,53 @@
+.header {
+    height: 75px;
+    width: 350px;
+    background-color: lightblue;
+    float: center;
+    padding: 10px;
+    margin: 20px;
+    text-align: centre;
+    font-size: 24px;
+}
+
+
+
+input[type="button"] {
+    transition: 0.2s;
+    background-color: pink;
+}
+
+input:hover[type="button"] {
+    background-color: red;
+}
+
+.flex-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: gray;
+    font-size: 24px;
+}
+
+.flex-container > div {
+    height: 100%;
+    width: 100%;
+    float: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+#today{
+    background-color: lightcoral;
+}
+
+#week{
+    background-color: lightyellow;
+}
+
+#tlist > div:hover {
+    background-color: antiquewhite;
+}
+
+#wlist > div:hover {
+    background-color: antiquewhite;
+}
