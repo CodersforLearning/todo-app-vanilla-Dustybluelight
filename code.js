@@ -1,6 +1,6 @@
 function taddItem() {
     var newItem = document.createElement("div");
-    newItem.innerHTML = document.getElementById("box").value;
+    newItem.innerHTML = document.getElementById("tbox").value;
     newItem.onclick = tremoveItem;
     document.getElementById("tlist").appendChild(newItem);
     tsaveList();
